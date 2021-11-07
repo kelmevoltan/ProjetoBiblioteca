@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Http;
 using System;
 
 namespace Biblioteca.Controllers
-{
+{   
     
     public class EmprestimoController : Controller
     {
@@ -23,20 +23,21 @@ namespace Biblioteca.Controllers
         public IActionResult Cadastro(CadEmprestimoViewModel viewModel)
         {
             EmprestimoService emprestimoService = new EmprestimoService();
-            
-            if(viewModel.Emprestimo.Id == 0)
-            {
-                emprestimoService.Inserir(viewModel.Emprestimo);
-            }
-            else
-            {
-                emprestimoService.Atualizar(viewModel.Emprestimo);
-            }
+           
+                if(viewModel.Emprestimo.Id == 0)
+                {
+                    emprestimoService.Inserir(viewModel.Emprestimo);
+                }
+                else
+                {
+                    emprestimoService.Atualizar(viewModel.Emprestimo);
+                }
             return RedirectToAction("Listagem");
         }
 
         public IActionResult Listagem(string tipoFiltro, string filtro)
         {
+            //Autenticacao.CheckLogin(this);
             FiltrosEmprestimos objFiltro = null;
             if(!string.IsNullOrEmpty(filtro))
             {

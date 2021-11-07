@@ -1,7 +1,4 @@
-using System;
-
-namespace Biblioteca.Models
-{
+namespace Biblioteca.Models{
     public class FiltrosEmprestimos
     {
         public string TipoFiltro {get; set;}
