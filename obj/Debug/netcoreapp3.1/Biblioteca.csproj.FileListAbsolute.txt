@@ -157,3 +157,10 @@ C:\Users\Windows\Documents\SENAC\UC07\Biblioteca\obj\Debug\netcoreapp3.1\staticw
 C:\Users\Windows\Documents\SENAC\UC07\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.dll
 C:\Users\Windows\Documents\SENAC\UC07\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.pdb
 C:\Users\Windows\Documents\SENAC\UC07\Biblioteca\obj\Debug\netcoreapp3.1\Biblioteca.genruntimeconfig.cache
+C:\Users\Windows\Documents\SENAC\UC07\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Home\Logout.cshtml.g.cs
+C:\Users\Windows\Documents\SENAC\UC07\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Cadastro.cshtml.g.cs
+C:\Users\Windows\Documents\SENAC\UC07\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Edicao.cshtml.g.cs
+C:\Users\Windows\Documents\SENAC\UC07\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Listagem.cshtml.g.cs
+C:\Users\Windows\Documents\SENAC\UC07\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\_FormCadastro.cshtml.g.cs
+C:\Users\Windows\Documents\SENAC\UC07\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Exclusao.cshtml.g.cs
+C:\Users\Windows\Documents\SENAC\UC07\Biblioteca\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\NeedAdmin.cshtml.g.cs
